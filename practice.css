@@ -1,0 +1,21 @@
+.content {
+  width: 60rem;
+}
+
+.content1, .content2{
+  width: 30rem;
+  background-color:#FFE4C4;
+}
+
+.content1 {
+  float:left;
+}
+
+.content2 {
+  float:right;
+  text-align: left;
+}
+
+img {
+  width: 60%;
+}
