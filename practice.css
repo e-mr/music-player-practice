@@ -1,21 +1,64 @@
-.content {
-  width: 60rem;
+body {
+  background-color: #021119;
 }
 
-.content1, .content2{
-  width: 30rem;
-  background-color:#FFE4C4;
+.column {
+  float: left;
 }
 
-.content1 {
-  float:left;
+.album {
+  width: 25%;
 }
 
-.content2 {
-  float:right;
-  text-align: left;
+.player {
+  padding: 0.8rem;
+  width: 60%;
 }
 
 img {
-  width: 60%;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+h1, h2, h3, h4 {
+  color: #f2f6fc;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  margin: 0rem 0rem 0.5rem 0.3rem;
+}
+
+h2, h3, h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.rewind, .play-pause, .fastforward {
+  float: left;
+}
+
+i {
+  border: #f2f6fc solid;
+  border-radius: 50%;
+  border-width: 0.05rem;
+  height: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 1rem;
+}
+
+.fa {
+  color: #f2f6fc;
+}
+
+.vertical-line {
+  display: inline-block;
+  float: left;
+  width: 20rem;
+}
+
+hr {
+  color: #f2f6fc
 }
