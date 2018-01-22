@@ -1,37 +1,52 @@
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 14rem;
+  }
+}
+
 body {
-  background-color: #021119;
-}
-
-.column {
-  float: left;
-}
-
-.album {
-  width: 25%;
-}
-
-.player {
-  padding: 0.8rem;
-  width: 60%;
-}
-
-img {
-  width: 100%;
-  padding: 1.5rem;
+  background-color: #0E0B16;
 }
 
 h1, h2, h3, h4 {
-  color: #f2f6fc;
+  color: #E7DFDD;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0rem;
+  text-align: center;
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-  margin: 0rem 0rem 0.5rem 0.3rem;
+  display: none;
 }
 
-h2, h3, h4 {
-  font-family: 'Roboto Condensed', sans-serif;
+h2 {
+  font-size: 2rem;
+  padding-bottom: 1.1rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-bottom: 3rem;
+}
+
+hr {
+  width: 80%;
+  margin-bottom: 3.5rem;
+  color: #E7DFDD
+}
+
+.player-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
 }
 
 .rewind, .play-pause, .fastforward {
@@ -39,7 +54,7 @@ h2, h3, h4 {
 }
 
 i {
-  border: #f2f6fc solid;
+  border: #AE9AF9 solid;
   border-radius: 50%;
   border-width: 0.05rem;
   height: 1rem;
@@ -50,15 +65,5 @@ i {
 }
 
 .fa {
-  color: #f2f6fc;
-}
-
-.vertical-line {
-  display: inline-block;
-  float: left;
-  width: 20rem;
-}
-
-hr {
-  color: #f2f6fc
+  color: #AE9AF9;
 }
